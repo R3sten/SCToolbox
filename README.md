@@ -1,8 +1,8 @@
 # Scientific Computing Toolbox
 
-![Tests](https://github.com/R3sten/SCToolbox/blob/main/.github/workflows/tests.yml/badge.svg)
+![Tests](https://github.com/R3sten/SCToolbox/actions/workflows/tests.yml/badge.svg)
 
-# Commands used during project creation:
+## Commands used during project creation:
 
 python -m venv venv
 
@@ -16,17 +16,17 @@ pip install -e .
 
 <!-- --- -->
 
-# Testing:
+## Testing:
 
 pip install -r requirements_dev.txt
 
-## Type checking:
+### Type checking:
 
 mypy src
 
 flake8 src
 
-## Actual test:
+### Actual test:
 
 pytest
 
