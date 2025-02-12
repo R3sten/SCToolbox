@@ -1,4 +1,8 @@
-<!-- Commands used during project creation: -->
+# Scientific Computing Toolbox
+
+![Tests](https://github.com/R3sten/SCToolbox/blob/main/.github/workflows/tests.yml/badge.svg)
+
+# Commands used during project creation:
 
 python -m venv venv
 
@@ -12,17 +16,17 @@ pip install -e .
 
 <!-- --- -->
 
-<!-- Testing: -->
+# Testing:
 
 pip install -r requirements_dev.txt
 
-<!-- Type checking: -->
+## Type checking:
 
 mypy src
 
 flake8 src
 
-<!-- Actual test: -->
+## Actual test:
 
 pytest
 
@@ -33,7 +37,7 @@ sudo apt install software-properties-common
 sudo add-apt-repository ppa:deadsnakes/ppa
 -->
 
-sudo apt install python3.10 python3.11 python3.12 python3.13 python3.14
+sudo apt install python3.10 python3.11 python3.12 python3.13
 
 tox
 
