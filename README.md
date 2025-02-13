@@ -9,29 +9,29 @@ This project aims to be both an homework for the Advanced Programmin class that 
 First you have to clone this repositry in your desired location:
 
 ```
-git clone https://github.com/R3sten/SCToolbox.git
+＄ git clone https://github.com/R3sten/SCToolbox.git
 ```
 
 Then I highly recommend to create a virtual environment and activate it:
 
 ```
-$ python -m venv venv
+＄ python -m venv venv
 
-$ source venv/bin/activate
+＄ source venv/bin/activate
 ```
 
 Then install the packages needed to run the software and build the local library:
 
 ```
-$ pip install -r requirements.txt
+＄ pip install -r requirements.txt
 
-$ pip install .
+＄ pip install .
 ```
 
 If you want to modify the code you can also install the local libray in editable mode:
 
 ```
-$ pip install -e .
+＄ pip install -e .
 ```
 
 ## Testing:
@@ -39,7 +39,7 @@ $ pip install -e .
 First, in order to run tests, you have to install the dependencies related to them:
 
 ```
-$ pip install -r requirements_dev.txt
+＄ pip install -r requirements_dev.txt
 ```
 
 ### Type checking:
@@ -47,9 +47,9 @@ $ pip install -r requirements_dev.txt
 For testing the code structure and correctnes you can run the folowing commands:
 
 ```
-$ mypy src
+＄ mypy src
 
-$ flake8 src tests
+＄ flake8 src tests
 ```
 
 ### Software functionality tests:
@@ -57,22 +57,22 @@ $ flake8 src tests
 For testing the code into current enviroment you can simply run from the root of the project:
 
 ```
-$ pytest
+＄ pytest
 ```
 
 Also you can test it into different Python environments.
 If not already installed, Python interpreters that that are going to be used during the tests need to be downloaded before:
 
 ```
-$ sudo apt update
-$ sudo apt install software-properties-common
-$ sudo add-apt-repository ppa:deadsnakes/ppa
+＄ sudo apt update
+＄ sudo apt install software-properties-common
+＄ sudo add-apt-repository ppa:deadsnakes/ppa
 
-$ sudo apt install python3.10 python3.11 python3.12 python3.13
+＄ sudo apt install python3.10 python3.11 python3.12 python3.13
 ```
 
 Then simply you have just to run tox and automatically tests are being done:
 
 ```
-tox
+＄ tox
 ```
